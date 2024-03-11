@@ -106,7 +106,6 @@ export function RegisterForm() {
       if (error) {
         throw error;
       }
-      console.log(data);
       router.replace("/dashboard");
     } catch (error) {
       console.log("[SIGN_UP_FORM_ERROR]", error);
